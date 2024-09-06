@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunacal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main flex">
+      <div class="left"></div>
+      <div class="right">
+        <div class="upper-right">
+          <div class="upper">
+            <div class="question">
+              <img src="./image/Vector.png" alt="" />
+            </div>
+
+            <div class="tabs flex">
+              <button class="aboutMe">About Me</button>
+              <button class="aboutMe">Experiences</button>
+              <button class="aboutMe">Recommended</button>
+            </div>
+          </div>
+          <div class="text">
+            <div class="frame">
+              <img src="./image/frame.png" alt="" />
+            </div>
+            <p>
+              Hello! I’m Dave, your sales rep here from Salesforce. I’ve been
+              working at this awesome company for 3 years now. I was born and
+              raised in Albany, NY& have been living in Santa Carla for the past
+              10 years my wife Tiffany and my 4 year old twin daughters- Emma
+              and Ella. Both of them are just starting school, so my calender is
+              usually blocked between 9-10 AM. This is a...
+            </p>
+          </div>
+        </div>
+        <div class="line"><img src="./image/line.png" alt="" /></div>
+        <div class="lower">
+          <div class="leftIcons">
+            <img src="./image/Vector.png" alt="" />
+          </div>
+          <div class="boxes">
+            <img src="./image/frame.png" alt="" />
+          </div>
+          <div class="image-container">
+            <div class="image-box">
+              <div class="rectangle">
+                <img src="./image/Rectangle 5121.png" alt="" />
+                <h3>Gallery</h3>
+              </div>
+              <!-- Add image button -->
+              <input type="file" id="image-input" multiple />
+              <label for="image-input">+ Add Image</label>
+              <!-- Container for additional images -->
+              <div class="image-list">
+                <!-- Additional images will be added here -->
+              </div>
+              <div class="img-button flex">
+                <button>
+                  <i
+                    class="fa-solid fa-arrow-left"
+                    style="filter: invert(1)"
+                  ></i>
+                </button>
+                <button>
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    style="filter: invert(1)"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"><img src="./image/line.png" alt="" /></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
